@@ -1,0 +1,6 @@
+body {
+    background-image: url('1.jpg');
+    background-size: cover; /* Per adattare l'immagine allo schermo */
+    background-position: center; /* Per centrare l'immagine */
+    background-repeat: no-repeat; /* Per evitare la ripetizione dell'immagine */
+}

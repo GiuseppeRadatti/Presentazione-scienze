@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presentazione</title>
+<style>
+  body {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Rimuove il margine predefinito del body */
+    padding: 0; /* Rimuove il padding predefinito del body */
+    color: white; /* Imposta il colore del testo del body su bianco */
+  }
+  .centrato {
+    text-align: center;
+  }
+  h1 {
+    color: white; /* Imposta il colore del testo dell'elemento h1 su bianco */
+  }
+  iframe {
+    width: 69%; /* Imposta la larghezza dell'iframe al 100% del suo contenitore */
+    height: 85vh; /* Imposta l'altezza dell'iframe al 80% dell'altezza della finestra del browser */
+    border: none; /* Rimuove il bordo dell'iframe */
+  }
+  /* Rimuove i bordi per tutti gli iframe */
+  iframe {
+    border: none;
+  }
+  /* Nasconde l'intero iframe quando l'URL contiene "office.com" */
+  iframe[src*="office.com"] {
+    display: none;
+  }
+</style>
+</head>
+<body>
+<div class="centrato">
+  <h1>Presentazione web</h1>
+  <iframe src="https://onedrive.live.com/embed?resid=7BE23B80B7901691%21108&amp;authkey=%21AHCNOr4UknWlSXc&amp;em=2&amp;wdAr=1.7777777777777777" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+</div>
+</body>
+</html>
